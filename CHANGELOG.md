@@ -5,6 +5,7 @@ _2020-12-04_
 #### 新功能
 
 ##### 
+- 测试CHANGELOG([00db003](https://github.com/EEEVO/vue3-ts-base/commit/00db003))
 - 新功能: 测55666666([6b77b3b](https://github.com/EEEVO/vue3-ts-base/commit/6b77b3b))
 - 初次提交([7f13235](https://github.com/EEEVO/vue3-ts-base/commit/7f13235))
 

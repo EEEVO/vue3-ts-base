@@ -1,6 +1,6 @@
 {
   "name": "vue3-ts-base",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "一个使用vue3+typescript 搭建的项目基础架构类型声明库",
   "author": {
     "name": "zhanghaoran",
@@ -10,7 +10,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "changelog": "changelog-sn -i CHANGELOG.md -s -r 2",
+    "changelog": "rm CHANGELOG.md && changelog-sn -i CHANGELOG.md -s -r 2",
     "cz": "git cz",
     "release": "release-it",
     "docs": "typedoc --out ./docs/ ./src/ && npm run serve:docs",
