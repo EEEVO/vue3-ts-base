@@ -19,11 +19,6 @@
     "test:api": "vue-cli-service test:unit ./tests/api/*.spec.ts",
     "test-dev:api": "vue-cli-service test:unit ./tests/api/*.spec.ts --watch"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  },
   "main": "dist/index.js",
   "files": [
     "@types"
@@ -92,6 +87,16 @@
     "src/**/*.{jsx,txs,ts,js,json,less,vue,md}": [
       "vue-cli-service lint"
     ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "browserslist": [
     "> 1%",
