@@ -1,14 +1,19 @@
-# 0.1.0 (2020-12-04)
+### 0.1.0
+
+_2020-12-04_
+
+#### 新功能
+
+##### 
+- 新功能: 测55666666([6b77b3b](https://github.com/EEEVO/vue3-ts-base/commit/6b77b3b))
+- 初次提交([7f13235](https://github.com/EEEVO/vue3-ts-base/commit/7f13235))
 
 
-### Bug Fixes
 
-* 测试changelog.md的生成 ([a1f8afa](https://github.com/EEEVO/vue3-ts-base/commit/a1f8afa07f9e439602e4dfa399e30a9548aa560d))
+#### 修复
 
-
-### Features
-
-* 初次提交 ([7f13235](https://github.com/EEEVO/vue3-ts-base/commit/7f13235076d1df8586c98d6c20afe931a9ef47cf))
+##### 
+- 测试changelog.md的生成([a1f8afa](https://github.com/EEEVO/vue3-ts-base/commit/a1f8afa))
 
 
 
